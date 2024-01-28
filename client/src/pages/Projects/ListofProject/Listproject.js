@@ -19,7 +19,7 @@ const Listproject = () => {
                     <VerticalTimeline>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date="2011 - present"
+                            date=" DEC 2023"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             icon={<FaReact />}
                         >
@@ -53,7 +53,7 @@ const Listproject = () => {
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date="2011 - present"
+                            date="2023"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             icon={<FaPython />}
                         >
@@ -87,7 +87,7 @@ const Listproject = () => {
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date="2011 - present"
+                            date="2022"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             icon={<FaHtml5 />}
                         >

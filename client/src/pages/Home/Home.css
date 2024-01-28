@@ -18,7 +18,7 @@
 .home-buttons .btn-hire{
     background-color: rgb(2, 255, 44);
     color: rgb(0, 0, 0);
-    width: 160px;
+    width: 140px;
 }
 .home-buttons .btn-hire:hover{
     background-color: rgb(255, 255, 255);
@@ -29,7 +29,7 @@
 .home-buttons .btn-cv{
     background-color: rgb(2, 255, 44);
     color: rgb(0, 0, 0);
-    width: 160px;
+    width: 140px;
     margin-left: 15px;
 }
 .home-buttons .btn-cv:hover{

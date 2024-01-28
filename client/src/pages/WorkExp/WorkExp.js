@@ -30,7 +30,7 @@ const WorkExp = () => {
                             <li><p>It counts number of visit on site and it is hosted on Godaddy and Github.</p></li>
                             </ol>
                             <div class="project1-button text-center">
-                                <a href="https://github.com/as23july/notebook-react" class="ad-btn">Certificate</a>
+                                <a href="https://drive.google.com/file/d/1lwfNtNPuH6o0AFqd7lvj-vR4JOkUbsn1/view?usp=drive_link" class="ad-btn">Certificate</a>
                             </div>
                         </VerticalTimelineElement>
                     </VerticalTimeline>

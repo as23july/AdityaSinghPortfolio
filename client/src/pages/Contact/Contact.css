@@ -1,91 +1,95 @@
-.contact{
-    margin-left: 190px;
-    margin-bottom: 60px;
-    padding-top: 50px;
+.contact {
+  margin-left: 190px;
+  margin-bottom: 60px;
+  padding-top: 50px;
 }
-.card0{
-    box-shadow: 0px 4px 8px 0px #757575;
-}
-
-.card2{
-    margin: 0px 40px;
+.card0 {
+  box-shadow: 0px 4px 8px 0px #757575;
 }
 
-.card1 .image{
-    padding: 30px;
-    height: 350px;
-    /* background-color: white; */
-    margin-top: 30px;
+.card2 {
+  margin: 0px 40px;
 }
-.border-line{
-    border-right: 1px solid #e0e0e0;
+
+.card1 .image {
+  padding: 30px;
+  height: 350px;
+  /* background-color: white; */
+  margin-top: 30px;
 }
-.line{
-    height: 1px;
-    width: 45%;
-    background-color: #e0e0e0;
-    margin-top: 10px;
+.border-line {
+  border-right: 1px solid #e0e0e0;
 }
-.or{
-    display: flex;
-    width: 10%;
-    font-weight: bold;
+.line {
+  height: 1px;
+  width: 45%;
+  background-color: #e0e0e0;
+  margin-top: 10px;
 }
-::placeholder{
-    color: #bdbdbd;
-    opacity: 1;
-    font-weight: 300;
+.or {
+  display: flex;
+  width: 10%;
+  font-weight: bold;
 }
-input, textarea{
-    padding: 10px 12px;
-    border: 1px solid lightgray;
-    border-radius: 2px;
-    margin-top: 5px;
-    width: 100%;
-    color: #138781;
-    font-size: 1rem;
-    letter-spacing: 1px;
+::placeholder {
+  color: #bdbdbd;
+  opacity: 1;
+  font-weight: 300;
 }
-input:focus, textarea:focus{
-    box-shadow: nonw !important;
-    outline: 1px solid #138781 !important;
-    outline-width: 0px;
+input,
+textarea {
+  padding: 10px 12px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  margin-top: 5px;
+  width: 100%;
+  color: #138781;
+  font-size: 1rem;
+  letter-spacing: 1px;
 }
-button:focus{
-    box-shadow: none;
-    outline-width: 0px;
+input:focus,
+textarea:focus {
+  box-shadow: nonw !important;
+  outline: 1px solid #138781 !important;
+  outline-width: 0px;
 }
-.button{
-    background-color: #1e1e1e;
-    color: white;
-    border-radius: 2px;
-    margin-top: 15px;
-    padding: 10px;
+button:focus {
+  box-shadow: none;
+  outline-width: 0px;
 }
-.button:hover{
-    background-color: #138781;
-    color: white;
+.button {
+  background-color: #1e1e1e;
+  color: white;
+  border-radius: 2px;
+  margin-top: 15px;
+  padding: 10px;
+}
+.button:hover {
+  background-color: #138781;
+  color: white;
 }
 /* ========================= */
-@media(max-width:600px) {
-    .contact{
-        margin: 0;
-        padding: 0;
-        margin-top: 20px;
-        width: 100%;
-    }
-    .card0{
-        /* background-color: #5f264a; */
-        padding-bottom: 20px;
-        box-shadow: none;
-    }
-    .card1 .image{
-        padding-top: 0px;
-    }
-    .card2 h6{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
+@media (max-width: 600px) {
+  .contact {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .card0 {
+    /* background-color: #5f264a; */
+    padding-bottom: 20px;
+    box-shadow: none;
+  }
+  .card1 .image {
+    padding-top: 0px;
+  }
+  .card2 h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-filling {
+    padding-right: 0px;
+  }
 }

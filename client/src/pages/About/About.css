@@ -52,4 +52,14 @@
     .about h1{
         margin-top: 20px;
     }
+    .row{
+        margin-right:0;
+    }
+    .about-img{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .container{
+        padding-right: 0;
+    }
 }

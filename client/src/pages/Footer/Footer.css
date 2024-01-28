@@ -5,3 +5,6 @@
     font-size: larger;
     font-weight: bolder;
 }
+.page-footer{
+    box-shadow: inset 5px 5px 100px 2px;
+}
