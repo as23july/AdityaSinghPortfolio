@@ -22,9 +22,9 @@ function App() {
       <MobileNav/>
       <Layout />
       
-      <div class="container">
+      {/* <div class="container"> */}
         <About />
-      </div>
+      {/* </div> */}
       <WorkExp />
       <Listproject />
       <Techstack />

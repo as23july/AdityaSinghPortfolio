@@ -41,7 +41,17 @@
     color: #b0a4a4;
     border-bottom: 2px solid #b0a4a4;
 }
+.about-box{
+    display: flex;
+    justify-content: space-around;
+}
 /* ================================== */
+@media (min-width: 1200px){
+.col-xl-6 {
+    flex: 0 0 auto;
+    width: 30%;
+}
+}
 @media(max-width:600px) {
     .about{
         margin: 0;
