@@ -12,7 +12,7 @@ const Contact = () => {
     <>
       <div class="container contact" id="contact">
         <div class="card card0 border-0" id={theme}>
-          <div class="row">
+          <div class="row contact-writebox">
             <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 card-filling">
               <div class="card1">
                 <div class="row border-line">
@@ -22,7 +22,7 @@ const Contact = () => {
             </div>
             <div class="col-md-6 col-lg-6 card-filling">
               <div class="card2 d-flex card border-0 px-4 py-5">
-                <div class="row">
+                <div class="row writing-card">
                   <div class="row">
                     <h6>
                       Contact with

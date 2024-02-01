@@ -68,6 +68,12 @@ button:focus {
   background-color: #138781;
   color: white;
 }
+.contact-writebox{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+}
 /* ========================= */
 @media (max-width: 600px) {
   .contact {
@@ -91,5 +97,11 @@ button:focus {
   }
   .card-filling {
     padding-right: 0px;
+  }
+  .writing-card{
+    
+      display: flex;
+      justify-content: center;
+  
   }
 }

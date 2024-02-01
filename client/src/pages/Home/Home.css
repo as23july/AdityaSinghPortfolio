@@ -71,4 +71,17 @@
     .home-container h1{
         font-size: 24px;
     }
+    .home-buttons .btn-hire:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(255, 0, 0);
+        width: 140px;
+        transition: 1s;
+    }
+    .home-buttons .btn-cv:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(255, 0, 0);
+        width: 140px;
+        font-weight:bold;
+        transition: 1s;
+    }
 }
