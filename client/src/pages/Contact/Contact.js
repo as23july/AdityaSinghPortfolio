@@ -24,7 +24,7 @@ const Contact = () => {
               <div class="card2 d-flex card border-0 px-4 py-5">
                 <div class="row writing-card">
                   <div class="row">
-                    <h6>
+                    <h6 className="contact-heading">
                       Contact with
                       <a href="https://www.linkedin.com/in/as23-july/">
                         <FaLinkedin color="blue" size={36} className="ms-2" />

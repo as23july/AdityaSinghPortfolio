@@ -57,6 +57,11 @@ button:focus {
   box-shadow: none;
   outline-width: 0px;
 }
+.contact-heading{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .button {
   background-color: #1e1e1e;
   color: white;
