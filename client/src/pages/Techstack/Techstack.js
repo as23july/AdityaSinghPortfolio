@@ -35,7 +35,7 @@ const Techstack = () => {
                             </div>
                         </div>
 
-                    ))};
+                    ))}
                 </div>
             </div>
         </>
