@@ -1,7 +1,10 @@
 .project{
-    background-color: #1387812a;
-    margin-left: 180px;
+    /* background-color: #1387812a; */
+    /* margin-left: 180px; */
     padding: 60px 0px;
+    margin-top: 60px;
+    border-radius: 1%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .project hr{
     color: rgb(255, 0, 0);
@@ -39,7 +42,7 @@
     margin-bottom: 5px;
 }
 .project .vertical-timeline::before{
-    background-color: rgb(33, 150, 243);
+    background-color: #138781;
 }
 #dark .project{
     box-shadow: none;

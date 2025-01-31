@@ -1,7 +1,9 @@
 .work{
     background-color: #1387812a;
-    margin-left: 150px;
+    border-radius: 1%;
+    /* margin-left: 150px; */
     padding: 60px 0px;
+
 }
 .work hr{
     color: rgb(255, 0, 0);
@@ -29,13 +31,16 @@
     position: relative;
 }
 .work-exp .vertical-timeline::before{
-    background-color: rgb(33, 150, 243);
+    background-color: #000000;
 }
 #dark .work{
     box-shadow: none;
     background-color: rgba(0, 0, 0, 0.15) ;
 }
 
+.vertical-timeline-element-subtitle{
+    color: #40d5ce;
+}
 /* ================================ */
 
 @media(max-width:600px) {
@@ -47,5 +52,8 @@
     }
     .work h1{
         padding-top: 20px;
+    }
+    .work-exp .vertical-timeline::before{
+        background-color: #000000;
     }
 }

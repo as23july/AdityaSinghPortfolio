@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.sidebar-sectionFix{
+  background-color: #61dafb;
+}
+
+.containerother{
+  max-width:100%;
+  /* background-color: #61dafb; */
+  margin-left: 120px;
+}
+
+@media(max-width: 600px){
+  .containerother{
+    margin-left:0px;
+  }
+}

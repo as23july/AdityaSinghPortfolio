@@ -17,9 +17,59 @@ const WorkExp = () => {
           </h1>
           <hr />
           <VerticalTimeline>
+          <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="July 2024 - Present"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              icon={<MdOutlineDeveloperMode />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Trainee IT
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Innova Solutions
+              </h4>
+              <ol>
+                <li>
+                  <p>
+                  Translated complex design requirements into interactive user experiences to promote customer
+                  engagement and drive web traffic.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                  Built and tested application functionality to ensure a desirable user experience across all platforms.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                  Optimized page elements to reduce loading time and debugged code to ensure cross-browser usability.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                  Collaborated with other developers, designers, and project teams to ensure successful, on-schedule
+                  development and delivery of applications.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                  Developed back-end components and integrated them with front-end applications.
+                  </p>
+                </li>
+              </ol>
+              {/* <div class="project1-button text-center">
+                <a
+                  href="https://drive.google.com/file/d/1lwfNtNPuH6o0AFqd7lvj-vR4JOkUbsn1/view?usp=drive_link"
+                  class="ad-btn"
+                >
+                  Certificate
+                </a>
+              </div> */}
+            </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="June 2022 - August 2022"
+              date="December 2023 - April 2024"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={<MdOutlineDeveloperMode />}
             >
@@ -80,7 +130,7 @@ const WorkExp = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="June 2022 - August 2022"
+              date="June 2023 - August 2023"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={<MdOutlineDeveloperMode />}
             >

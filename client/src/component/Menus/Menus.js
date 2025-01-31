@@ -33,7 +33,7 @@ const Menus = ({ toggle }) => {
               </div>
               <div class="nav-link">
                 <Link to="work" spy={true} smooth={true} offset={-100} duration={100}>
-                  <MdOutlineWork size={22} />Work Experience
+                  <MdOutlineWork size={22} />Experience
                 </Link>
               </div>
               <div class="nav-link">

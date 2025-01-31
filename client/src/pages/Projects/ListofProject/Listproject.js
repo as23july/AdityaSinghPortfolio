@@ -27,7 +27,7 @@ const Listproject = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date=" DEC 2023"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              iconStyle={{ background: "#138781", color: "#fff" }}
               icon={<FaReact />}
             >
               <div class="card-image-overly m-auto mb-3">
@@ -100,6 +100,61 @@ const Listproject = () => {
                 </a>
               </div>
             </VerticalTimelineElement>
+
+            {/* ----------------------------------------------------------------------- */}
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date=" DEC 2023"
+              iconStyle={{ background: "#138781", color: "#fff" }}
+              icon={<FaReact />}
+            >
+              <div class="card-image-overly m-auto mb-3">
+                {/* <span class="card-detail-badge">Node.js</span>
+                <span class="card-detail-badge">Express.js</span> */}
+                <span class="card-detail-badge">React.js</span>
+                <span class="card-detail-badge">MongoDB</span>
+                <span class="card-detail-badge">Git</span>
+                <span class="card-detail-badge">HTML & CSS</span>
+              </div>
+              <h3 className="vertical-timeline-element-title">Dynamic TODO</h3>
+              {/* <h5 className="vertical-timeline-element-subtitle">Node.js, Express.js, React.js, MongoDB, HTML&CSS</h5> */}
+              <ol>
+                <li>
+                  <p>
+                    Create a dynamic ToDo application using React that allows
+                    users to manage tasks in three categories: To Do, Ongoing,
+                    and Completed.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Each task will have a title, description, and timestamp.
+                    Tasks can be moved between categories and the state will be
+                    saved locally in the browser using localStorage.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Task data is stored locally in the browser to persist across
+                    sessions and data is retrieved from localStorage on
+                    application load and saved to localStorage on every update.
+                  </p>
+                </li>
+              </ol>
+              <div class="project1-button text-center">
+                <a
+                  href="https://dynamic-to-do.vercel.app/"
+                  class="ad-btn"
+                >
+                  {" "}
+                  View
+                </a>
+              </div>
+            </VerticalTimelineElement>
+
+            {/* -------------------------------------------------------------- */}
+
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="2023"
@@ -159,7 +214,7 @@ const Listproject = () => {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="2022"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              iconStyle={{ background: "#138781", color: "#fff" }}
               icon={<FaHtml5 />}
             >
               <div class="card-image-overly m-auto mb-3">
